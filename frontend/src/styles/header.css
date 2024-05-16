@@ -1,0 +1,66 @@
+/* frontend/src/styles/header.css */
+
+/* Style for the header section */
+.header {
+    background-color: #333; /* Background color for the header */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around the header */
+}
+
+/* Style for the content within the header */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.startup-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.startup-info h1 {
+    margin: 0;
+    margin-bottom: 1px; /* Adjust as needed */
+}
+
+.startup-info h2 {
+    margin: 0;
+    margin-top: 5px; /* Adjust as needed */
+}
+
+
+
+/* Style for navigation menu */
+.header-content nav{
+    margin-top: 10px;
+}
+
+.header-content nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for navigation menu items */
+.header-content nav ul li {
+    display: inline;
+    margin-left: 20px;
+    font-size: 18px; /* Font size for menu items */
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+/* Style for navigation menu links */
+.header-content nav ul li a {
+    color: #fff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Style for navigation menu link hover state */
+.header-content nav ul li a:hover {
+    color: #ccc; /* Change color on hover */
+}
